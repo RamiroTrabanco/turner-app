@@ -1,0 +1,5 @@
+[build]
+  command = "node app.js"
+  functions = "src/functions"
+  publish = "."
+  node_version = "14"
