@@ -52,3 +52,9 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
+p {
+  font-size: 58%;
+  padding-top: 0.5%;
+  padding-left: 18%;
+}
