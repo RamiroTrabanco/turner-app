@@ -50,6 +50,6 @@ app.post('/process', (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Aplicación web ejecutándose en http://localhost:${port}`);
+app.listen(process.env.PORT, () => {
+  console.log(`Aplicación web ejecutándose en http://localhost:${process.env.PORT}`);
 });
