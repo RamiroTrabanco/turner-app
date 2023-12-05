@@ -1,10 +1,12 @@
 const express = require('express');
 const fs = require('fs');
 const readline = require('readline');
+const cors = require('cors');
 
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname));
 
